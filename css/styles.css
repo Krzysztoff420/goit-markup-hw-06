@@ -267,7 +267,7 @@ ul {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--brand-color-header);
+  color: var(--main-text-color);
 }
 
 .inputs-modal {
@@ -284,7 +284,7 @@ ul {
   font-size: 12px;
   line-height: 1.167;
   letter-spacing: 0.01em;
-  color: var(--brand-color-text);
+  color: var(--contacts-header-color);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -296,7 +296,7 @@ ul {
 }
 
 .label-modal:focus-within {
-  fill: var(--brand-color);
+  fill: var(--accent-color);
 }
 
 .text-label-modal {
@@ -318,16 +318,16 @@ ul {
 }
 
 .input-modal:focus {
-  border-color: var(--brand-color);
+  border-color: var(--accent-color);
   outline: none;
 }
 
 .input-modal:focus-within .icon-modal {
-  fill: var(--brand-color);
+  fill: var(--accent-color);
 }
 
 .input-comment-modal:focus-within {
-  border-color: var(--brand-color);
+  border-color: var(--accent-color);
   outline: none;
 }
 
@@ -354,7 +354,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--brand-color-text);
+  color: var(--accent-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -403,7 +403,7 @@ ul {
 }
 
 .checkbox-modal a {
-  color: var(--brand-color);
+  color: var(--accent-color);
 }
 
 .modal-button-submit {
@@ -411,7 +411,7 @@ ul {
   height: 50px;
   padding: 10px 76px;
   border: none;
-  background: var(--brand-color);
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
@@ -419,7 +419,7 @@ ul {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--contrast-text-color);
   margin-top: 30px;
 }
 .icons-list {
