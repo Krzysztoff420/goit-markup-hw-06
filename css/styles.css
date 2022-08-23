@@ -400,6 +400,7 @@ ul {
 
 .rules {
   padding-left: 8px;
+  color: var(--contacts-header-color);
 }
 
 .checkbox-modal a {
